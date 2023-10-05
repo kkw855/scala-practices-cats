@@ -1,9 +1,8 @@
 package com.practice.rockthejvm.part1_introduction
 
-//noinspection ScalaWeakerAccess
+//noinspection ScalaWeakerAccess,ScalaUnusedSymbol,TypeAnnotation
 object TypeClassesAndVariance {
 
-  import cats.Eq
   import cats.instances.int._    // Eq[Int] type class instance
   import cats.instances.option._ // construct a Eq[Option[Int]] type class instance
   import cats.syntax.eq._
