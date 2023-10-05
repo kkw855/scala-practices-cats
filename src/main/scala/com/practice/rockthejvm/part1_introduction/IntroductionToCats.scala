@@ -1,4 +1,4 @@
-package com.practice.rockthejvm.introduction
+package com.practice.rockthejvm.part1_introduction
 
 //noinspection ScalaWeakerAccess,ScalaUnusedSymbol,TypeAnnotation
 object IntroductionToCats {
