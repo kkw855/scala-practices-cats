@@ -1,6 +1,6 @@
 package com.practice.rockthejvm.part2_abstract_math
 
-//noinspection ScalaWeakerAccess,TypeAnnotation
+//noinspection ScalaWeakerAccess,TypeAnnotation,ScalaUnusedSymbol
 object Semigroups {
 
   // Semigroups COMBINE elements of the same type
