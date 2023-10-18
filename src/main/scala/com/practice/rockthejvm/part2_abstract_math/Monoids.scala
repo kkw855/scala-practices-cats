@@ -35,7 +35,7 @@ object Monoids {
   // import cats.syntax.monoid._ // either this one or cats.syntax.semigroup._
   val combinedOptionFancy = Option(3) |+| Option(7)
 
-  // Excercise 1: implement a combineFold
+  // Exercise 1: implement a combineFold
   def combineFold[T](list: List[T])(implicit monoid: Monoid[T]): T =
     list.foldLeft(monoid.empty)(_ |+| _)
 

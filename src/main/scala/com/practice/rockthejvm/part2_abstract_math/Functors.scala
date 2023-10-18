@@ -58,7 +58,7 @@ object Functors {
   val tree: Tree[Int] = Tree.branch(40, Tree.branch(5, Tree.leaf(10), Tree.leaf(30)), Tree.leaf(20))
   val incrementedTree = tree.map(_ + 1)
 
-  // Exercise 2: write a shoter do10x method using extension methods
+  // Exercise 2: write a shorter do10x method using extension methods
   def do10xShorter[F[_]: Functor](container: F[Int]): F[Int] =
     container.map(_ * 10)
 
